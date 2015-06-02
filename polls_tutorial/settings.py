@@ -25,7 +25,10 @@ SECRET_KEY = 'tbu)&@)*f3#8dxxx$7zcy7lc=ycw^123*g&t*$iho#ns@fd#ur'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '.pollstutorial.com',  # Allow domain and subdomains
+    '.pollstutorial.com.',  # Also allow FQDN and subdomains
+]
 
 
 # Application definition
