@@ -1,0 +1,491 @@
+[
+{
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    },
+    "model": "contenttypes.contenttype"
+},
+{
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    },
+    "model": "contenttypes.contenttype"
+},
+{
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    },
+    "model": "contenttypes.contenttype"
+},
+{
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    },
+    "model": "contenttypes.contenttype"
+},
+{
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    },
+    "model": "contenttypes.contenttype"
+},
+{
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    },
+    "model": "contenttypes.contenttype"
+},
+{
+    "pk": 7,
+    "fields": {
+        "app_label": "polls",
+        "model": "question"
+    },
+    "model": "contenttypes.contenttype"
+},
+{
+    "pk": 8,
+    "fields": {
+        "app_label": "polls",
+        "model": "choice"
+    },
+    "model": "contenttypes.contenttype"
+},
+{
+    "pk": "z00cxio3zuy70ud517g74db7cggm2733",
+    "fields": {
+        "session_data": "NzA1MzViZjI1NjIxM2FhODk3N2E5NjAwNjI2ZjE3NTI5NzY5YzAyZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9oYXNoIjoiZmU0NmRhZDA4Mjc4MTNlMjYwMzQ3NjAyMjViZGI5NWJmYTU1YWY1OCIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIn0=",
+        "expire_date": "2015-06-23T16:07:10.230Z"
+    },
+    "model": "sessions.session"
+},
+{
+    "pk": 1,
+    "fields": {
+        "question_text": "What is your favorite programming language?",
+        "pub_date": "2015-06-09T17:49:08Z"
+    },
+    "model": "polls.question"
+},
+{
+    "pk": 2,
+    "fields": {
+        "question_text": "What is your favorite website framework?",
+        "pub_date": "2015-06-09T17:50:00Z"
+    },
+    "model": "polls.question"
+},
+{
+    "pk": 3,
+    "fields": {
+        "question_text": "What is you favorite text editor?",
+        "pub_date": "2015-06-09T18:54:28Z"
+    },
+    "model": "polls.question"
+},
+{
+    "pk": 1,
+    "fields": {
+        "choice_text": "Python",
+        "votes": 2,
+        "question": 1
+    },
+    "model": "polls.choice"
+},
+{
+    "pk": 2,
+    "fields": {
+        "choice_text": "Ruby",
+        "votes": 0,
+        "question": 1
+    },
+    "model": "polls.choice"
+},
+{
+    "pk": 3,
+    "fields": {
+        "choice_text": "Java",
+        "votes": 1,
+        "question": 1
+    },
+    "model": "polls.choice"
+},
+{
+    "pk": 4,
+    "fields": {
+        "choice_text": "Django",
+        "votes": 1,
+        "question": 2
+    },
+    "model": "polls.choice"
+},
+{
+    "pk": 5,
+    "fields": {
+        "choice_text": "Rails",
+        "votes": 0,
+        "question": 2
+    },
+    "model": "polls.choice"
+},
+{
+    "pk": 6,
+    "fields": {
+        "choice_text": "Spring MVC",
+        "votes": 1,
+        "question": 2
+    },
+    "model": "polls.choice"
+},
+{
+    "pk": 7,
+    "fields": {
+        "choice_text": "Textmate",
+        "votes": 0,
+        "question": 3
+    },
+    "model": "polls.choice"
+},
+{
+    "pk": 8,
+    "fields": {
+        "choice_text": "Sublime Text",
+        "votes": 0,
+        "question": 3
+    },
+    "model": "polls.choice"
+},
+{
+    "pk": 9,
+    "fields": {
+        "choice_text": "Komodo",
+        "votes": 0,
+        "question": 3
+    },
+    "model": "polls.choice"
+},
+{
+    "pk": 1,
+    "fields": {
+        "content_type": 1,
+        "name": "Can add log entry",
+        "codename": "add_logentry"
+    },
+    "model": "auth.permission"
+},
+{
+    "pk": 2,
+    "fields": {
+        "content_type": 1,
+        "name": "Can change log entry",
+        "codename": "change_logentry"
+    },
+    "model": "auth.permission"
+},
+{
+    "pk": 3,
+    "fields": {
+        "content_type": 1,
+        "name": "Can delete log entry",
+        "codename": "delete_logentry"
+    },
+    "model": "auth.permission"
+},
+{
+    "pk": 4,
+    "fields": {
+        "content_type": 2,
+        "name": "Can add permission",
+        "codename": "add_permission"
+    },
+    "model": "auth.permission"
+},
+{
+    "pk": 5,
+    "fields": {
+        "content_type": 2,
+        "name": "Can change permission",
+        "codename": "change_permission"
+    },
+    "model": "auth.permission"
+},
+{
+    "pk": 6,
+    "fields": {
+        "content_type": 2,
+        "name": "Can delete permission",
+        "codename": "delete_permission"
+    },
+    "model": "auth.permission"
+},
+{
+    "pk": 7,
+    "fields": {
+        "content_type": 3,
+        "name": "Can add group",
+        "codename": "add_group"
+    },
+    "model": "auth.permission"
+},
+{
+    "pk": 8,
+    "fields": {
+        "content_type": 3,
+        "name": "Can change group",
+        "codename": "change_group"
+    },
+    "model": "auth.permission"
+},
+{
+    "pk": 9,
+    "fields": {
+        "content_type": 3,
+        "name": "Can delete group",
+        "codename": "delete_group"
+    },
+    "model": "auth.permission"
+},
+{
+    "pk": 10,
+    "fields": {
+        "content_type": 4,
+        "name": "Can add user",
+        "codename": "add_user"
+    },
+    "model": "auth.permission"
+},
+{
+    "pk": 11,
+    "fields": {
+        "content_type": 4,
+        "name": "Can change user",
+        "codename": "change_user"
+    },
+    "model": "auth.permission"
+},
+{
+    "pk": 12,
+    "fields": {
+        "content_type": 4,
+        "name": "Can delete user",
+        "codename": "delete_user"
+    },
+    "model": "auth.permission"
+},
+{
+    "pk": 13,
+    "fields": {
+        "content_type": 5,
+        "name": "Can add content type",
+        "codename": "add_contenttype"
+    },
+    "model": "auth.permission"
+},
+{
+    "pk": 14,
+    "fields": {
+        "content_type": 5,
+        "name": "Can change content type",
+        "codename": "change_contenttype"
+    },
+    "model": "auth.permission"
+},
+{
+    "pk": 15,
+    "fields": {
+        "content_type": 5,
+        "name": "Can delete content type",
+        "codename": "delete_contenttype"
+    },
+    "model": "auth.permission"
+},
+{
+    "pk": 16,
+    "fields": {
+        "content_type": 6,
+        "name": "Can add session",
+        "codename": "add_session"
+    },
+    "model": "auth.permission"
+},
+{
+    "pk": 17,
+    "fields": {
+        "content_type": 6,
+        "name": "Can change session",
+        "codename": "change_session"
+    },
+    "model": "auth.permission"
+},
+{
+    "pk": 18,
+    "fields": {
+        "content_type": 6,
+        "name": "Can delete session",
+        "codename": "delete_session"
+    },
+    "model": "auth.permission"
+},
+{
+    "pk": 19,
+    "fields": {
+        "content_type": 7,
+        "name": "Can add question",
+        "codename": "add_question"
+    },
+    "model": "auth.permission"
+},
+{
+    "pk": 20,
+    "fields": {
+        "content_type": 7,
+        "name": "Can change question",
+        "codename": "change_question"
+    },
+    "model": "auth.permission"
+},
+{
+    "pk": 21,
+    "fields": {
+        "content_type": 7,
+        "name": "Can delete question",
+        "codename": "delete_question"
+    },
+    "model": "auth.permission"
+},
+{
+    "pk": 22,
+    "fields": {
+        "content_type": 8,
+        "name": "Can add choice",
+        "codename": "add_choice"
+    },
+    "model": "auth.permission"
+},
+{
+    "pk": 23,
+    "fields": {
+        "content_type": 8,
+        "name": "Can change choice",
+        "codename": "change_choice"
+    },
+    "model": "auth.permission"
+},
+{
+    "pk": 24,
+    "fields": {
+        "content_type": 8,
+        "name": "Can delete choice",
+        "codename": "delete_choice"
+    },
+    "model": "auth.permission"
+},
+{
+    "pk": 1,
+    "fields": {
+        "groups": [],
+        "username": "admin",
+        "last_name": "Lastname",
+        "is_active": true,
+        "user_permissions": [],
+        "password": "pbkdf2_sha256$20000$V7VWxN0ISsIJ$TuSRSFuajb436OG48ibATbbVwBffA+KlM4rM14kQxmw=",
+        "is_staff": true,
+        "first_name": "Firstname",
+        "is_superuser": true,
+        "last_login": "2015-06-09T16:07:10Z",
+        "date_joined": "2015-06-09T16:07:04Z",
+        "email": "username@domain.com"
+    },
+    "model": "auth.user"
+},
+{
+    "pk": 1,
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "object_id": "1",
+        "content_type": 7,
+        "action_time": "2015-06-09T17:49:10.756Z",
+        "user": 1,
+        "object_repr": "What is your favorite programming language?"
+    },
+    "model": "admin.logentry"
+},
+{
+    "pk": 2,
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "object_id": "2",
+        "content_type": 7,
+        "action_time": "2015-06-09T17:50:02.134Z",
+        "user": 1,
+        "object_repr": "What is your favorite website framework?"
+    },
+    "model": "admin.logentry"
+},
+{
+    "pk": 3,
+    "fields": {
+        "action_flag": 2,
+        "change_message": "Changed email.",
+        "object_id": "1",
+        "content_type": 4,
+        "action_time": "2015-06-09T18:52:51.864Z",
+        "user": 1,
+        "object_repr": "admin"
+    },
+    "model": "admin.logentry"
+},
+{
+    "pk": 4,
+    "fields": {
+        "action_flag": 2,
+        "change_message": "Changed email.",
+        "object_id": "1",
+        "content_type": 4,
+        "action_time": "2015-06-09T18:53:19.888Z",
+        "user": 1,
+        "object_repr": "admin"
+    },
+    "model": "admin.logentry"
+},
+{
+    "pk": 5,
+    "fields": {
+        "action_flag": 2,
+        "change_message": "Changed first_name and last_name.",
+        "object_id": "1",
+        "content_type": 4,
+        "action_time": "2015-06-09T18:53:36.896Z",
+        "user": 1,
+        "object_repr": "admin"
+    },
+    "model": "admin.logentry"
+},
+{
+    "pk": 6,
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "object_id": "3",
+        "content_type": 7,
+        "action_time": "2015-06-09T18:54:29.710Z",
+        "user": 1,
+        "object_repr": "What is you favorite text editor?"
+    },
+    "model": "admin.logentry"
+}
+]
